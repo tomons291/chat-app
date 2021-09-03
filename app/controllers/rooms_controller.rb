@@ -18,6 +18,7 @@ class RoomsController < ApplicationController
   private
 
   def room_params
+    binding.pry
     params.require(:room).permit(:name, user_ids: [])
   end
 
