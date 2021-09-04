@@ -56,3 +56,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 
 gem 'pry-rails'
+
+# 6-9　画像投稿機能に必要なGem
+gem 'mini_magick'
+gem 'image_processing', '~>1.2'
